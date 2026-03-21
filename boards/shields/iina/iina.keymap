@@ -19,6 +19,7 @@
                 &to L2    &to L0    &kp F
                 &to L3    &to L4    &kp G
             >;
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         1_layer {
@@ -28,6 +29,7 @@
                 &kp N     &to L0    &kp O
                 &kp P     &kp Q     &kp R
             >;
+            sensor-bindings = <&inc_dec_kp C D>;
         };
 
         2_layer {
@@ -35,26 +37,29 @@
                 &kp S     &kp T     &kp U
                 &kp V     &kp W     &kp X
                 &kp Y     &to L0    &kp Z
-                &kp 1     &kp 2     &kp 3
+                &kp A     &kp B     &kp C
             >;
+            sensor-bindings = <&inc_dec_kp E F>;
         };
 
         3_layer {
             bindings = <
-                &kp 4     &kp 5     &kp 6
-                &kp 7     &kp 8     &kp 9
-                &kp 0     &to L0    &kp A
-                &kp B     &kp C     &kp D
+                &kp D     &kp E     &kp F
+                &kp G     &kp H     &kp I
+                &kp J     &to L0    &kp K
+                &kp L     &kp M     &kp N
             >;
+            sensor-bindings = <&inc_dec_kp G H>;
         };
 
         4_layer {
             bindings = <
-                &to L1    &kp F     &kp G
-                &kp H     &kp I     &kp J
-                &kp K     &to L0    &kp L
-                &kp M     &kp N     &kp O
+                &to L1    &kp O     &kp P
+                &kp Q     &kp R     &kp S
+                &kp T     &to L0    &kp U
+                &kp V     &kp W     &kp X
             >;
+            sensor-bindings = <&inc_dec_kp I J>;
         };
     };
 };
