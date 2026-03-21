@@ -14,7 +14,7 @@
 
         default_layer {
             bindings = <
-                &to L1      &kp L0      &kp SPACE
+                &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
                 &to L2      &to L5      &kp J
                 &to L3      &to L4      &kp H
@@ -24,7 +24,7 @@
 
         1_layer {
             bindings = <
-                &to L1      &kp L0      &kp SPACE
+                &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
                 &to L2      &to L5      &kp J
                 &to L3      &to L4      &kp H
@@ -34,7 +34,7 @@
 
         2_layer {
             bindings = <
-                &to L1      &kp L0      &kp SPACE
+                &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
                 &to L2      &to L5      &kp J
                 &to L3      &to L4      &kp H
@@ -44,7 +44,7 @@
 
         3_layer {
             bindings = <
-                &to L1      &kp L0      &kp SPACE
+                &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
                 &to L2      &to L5      &kp J
                 &to L3      &to L4      &kp H
@@ -54,7 +54,7 @@
 
         4_layer {
             bindings = <
-                &to L1      &kp L0      &kp SPACE
+                &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
                 &to L2      &to L5      &kp J
                 &to L3      &to L4      &kp X
@@ -64,7 +64,7 @@
 
         5_layer {
             bindings = <
-                &none           &kp L0          &bootloader
+                &none           &to L0          &bootloader
                 &bt BT_SEL 4    &bt BT_CLR      &reset
                 &bt BT_SEL 2    &bt BT_SEL 3    &none
                 &bt BT_SEL 0    &bt BT_SEL 1    &none
