@@ -28,9 +28,9 @@
         status = "okay";
     };
 
-    sensors: sensors {
+    sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&encoder>;
+        sensors = <&left_encoder>;
     };
 
     transform: matrix_transform {
