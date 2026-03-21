@@ -9,11 +9,6 @@
 #define L4 4
 
 / {
-    sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&encoder_1>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -24,7 +19,7 @@
                 &to L2    &to L0    &kp F
                 &to L3    &to L4    &kp G
             >;
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         1_layer {
