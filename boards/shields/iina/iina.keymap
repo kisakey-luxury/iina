@@ -14,48 +14,52 @@
 
         default_layer {
             bindings = <
-                &to L1    &kp A     &kp B
-                &kp C     &kp D     &kp E
-                &to L2    &to L0    &kp F
-                &to L3    &to L4    &kp G
+                &to L1      &kp Z       &kp SPACE
+                &kp LEFT    &kp RIGHT   &kp L
+                &to L2      &to L0      &kp J
+                &to L3      &to L4      &kp H
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         1_layer {
             bindings = <
-                &kp H     &kp I     &kp J
-                &kp K     &kp L     &kp M
-                &kp N     &to L0    &kp O
-                &kp P     &kp Q     &kp R
+                &to L1      &kp Z       &kp SPACE
+                &kp LEFT    &kp RIGHT   &kp L
+                &to L2      &to L0      &kp J
+                &to L3      &to L4      &kp H
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         2_layer {
             bindings = <
-                &kp S     &kp T     &kp U
-                &kp V     &kp W     &kp X
-                &kp Y     &to L0    &kp Z
-                &kp A     &kp B     &kp C
+                &to L1      &kp Z       &kp SPACE
+                &kp LEFT    &kp RIGHT   &kp L
+                &to L2      &to L0      &kp J
+                &to L3      &to L4      &kp H
             >;
+            sensor-bindings = <&inc_dec_kp I G>;
         };
 
         3_layer {
             bindings = <
-                &kp D     &kp E     &kp F
-                &kp G     &kp H     &kp I
-                &kp J     &to L0    &kp K
-                &kp L     &kp M     &kp N
+                &to L1      &kp Z       &kp SPACE
+                &kp LEFT    &kp RIGHT   &kp L
+                &to L2      &to L0      &kp J
+                &to L3      &to L4      &kp H
             >;
+            sensor-bindings = <&inc_dec_kp T Y>;
         };
 
         4_layer {
             bindings = <
-                &to L1    &kp O     &kp P
-                &kp Q     &kp R     &kp S
-                &kp T     &to L0    &kp U
-                &kp V     &kp W     &kp X
+                &to L1      &kp Z       &kp SPACE
+                &kp LEFT    &kp RIGHT   &kp L
+                &to L2      &to L0      &kp J
+                &to L3      &to L4      &kp PSCRN
             >;
+            sensor-bindings = <&inc_dec_kp COMMA PERIOD>;
         };
     };
 };
