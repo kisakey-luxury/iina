@@ -1,0 +1,6 @@
+if SHIELD_IINA
+
+config ZMK_KEYBOARD_NAME
+    default "iina"
+
+endif # SHIELD_IINA
