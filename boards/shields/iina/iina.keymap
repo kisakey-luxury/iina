@@ -49,7 +49,7 @@
                 &to L2      &to L0      &kp J
                 &to L3      &to L4      &kp H
             >;
-            sensor-bindings = <&inc_dec_kp T Y>;
+            sensor-bindings = <&inc_dec_kp Y T>;
         };
 
         4_layer {
@@ -57,7 +57,7 @@
                 &to L1      &kp Z       &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
                 &to L2      &to L0      &kp J
-                &to L3      &to L4      &kp PSCRN
+                &to L3      &to L4      &kp X
             >;
             sensor-bindings = <&inc_dec_kp COMMA PERIOD>;
         };
