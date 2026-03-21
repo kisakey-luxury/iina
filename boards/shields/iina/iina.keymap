@@ -2,16 +2,58 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define L0 0
+#define L1 1
+#define L2 2
+#define L3 3
+#define L4 4
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp A    &kp B    &kp C
-                &kp D    &kp E    &kp F
-                &kp G    &kp H    &kp I
-                &kp J    &kp K    &kp L
+                &to L1    &kp A     &kp B
+                &kp C     &kp D     &kp E
+                &to L2    &to L0    &kp F
+                &to L3    &to L4    &kp G
+            >;
+        };
+
+        1_layer {
+            bindings = <
+                &kp H     &kp I     &kp J
+                &kp K     &kp L     &kp M
+                &kp N     &to L0    &kp O
+                &kp P     &kp Q     &kp R
+            >;
+        };
+
+        2_layer {
+            bindings = <
+                &kp S     &kp T     &kp U
+                &kp V     &kp W     &kp X
+                &kp Y     &to L0    &kp Z
+                &kp 1     &kp 2     &kp 3
+            >;
+        };
+
+        3_layer {
+            bindings = <
+                &kp 4     &kp 5     &kp 6
+                &kp 7     &kp 8     &kp 9
+                &kp 0     &to L0    &kp A
+                &kp B     &kp C     &kp D
+            >;
+        };
+
+        4_layer {
+            bindings = <
+                &to L1    &kp F     &kp G
+                &kp H     &kp I     &kp J
+                &kp K     &to L0    &kp L
+                &kp M     &kp N     &kp O
             >;
         };
     };
