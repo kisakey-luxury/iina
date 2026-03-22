@@ -40,7 +40,7 @@
                 &to L2      &to L5      &kp J
                 &to L3      &to L4      &kp H
             >;
-            sensor-bindings = <&inc_dec_kp I G>;
+            sensor-bindings = <&inc_dec_kp G I>;
         };
 
         3_layer {
@@ -60,7 +60,7 @@
                 &to L2      &to L5      &kp J
                 &to L3      &to L4      &kp X
             >;
-            sensor-bindings = <&inc_dec_kp COMMA PERIOD>;
+            sensor-bindings = <&inc_dec_kp PERIOD COMMA>;
         };
 
         5_layer {
