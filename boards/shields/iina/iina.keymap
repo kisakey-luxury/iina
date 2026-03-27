@@ -17,8 +17,8 @@
             bindings = <
                 &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
-                &to L2      &to L5      &kp J
-                &to L3      &to L4      &kp H
+                &to L2      &to L5      &kp H
+                &to L3      &to L4      &kp J
             >;
             sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
@@ -27,8 +27,8 @@
             bindings = <
                 &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
-                &to L2      &to L5      &kp J
-                &to L3      &to L4      &kp H
+                &to L2      &to L5      &kp H
+                &to L3      &to L4      &kp J
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -37,8 +37,8 @@
             bindings = <
                 &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
-                &to L2      &to L5      &kp J
-                &to L3      &to L4      &kp H
+                &to L2      &to L5      &kp H
+                &to L3      &to L4      &kp J
             >;
             sensor-bindings = <&inc_dec_kp G I>;
         };
@@ -47,8 +47,8 @@
             bindings = <
                 &to L1      &to L0      &kp SPACE
                 &kp LEFT    &kp RIGHT   &kp L
-                &to L2      &to L5      &kp J
-                &to L3      &to L4      &kp H
+                &to L2      &to L5      &kp H
+                &to L3      &to L4      &kp J
             >;
             sensor-bindings = <&inc_dec_kp Y T>;
         };
